@@ -1,0 +1,51 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\vspace {10pt}
+\vspace {10pt}
+\contentsline {chapter}{List of Figures}{ix}{section*.3}
+\contentsline {chapter}{List of Tables}{xi}{section*.4}
+\contentsline {chapter}{Notation}{xiii}{section*.5}
+\vspace {10pt}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Theory}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Solving systems of ordinary differential equations}{3}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}The Runge-Kutta family of numerical ODE solvers}{4}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}The Runge-Kutta methods under consideration}{7}{subsection.2.1.2}
+\contentsline {subsubsection}{Singlestep methods}{7}{subsubsection*.8}
+\contentsline {subsubsection}{Adaptive stepsize methods}{9}{subsubsection*.13}
+\contentsline {section}{\numberline {2.2}The type of flow systems considered}{14}{section.2.2}
+\contentsline {section}{\numberline {2.3}Definition of Lagrangian coherent structures for two-dimensional flows }{15}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Hyperbolic LCSs}{16}{subsection.2.3.1}
+\contentsline {section}{\numberline {2.4}Finite-time Lyapunov exponent fields as predictors for LCSs}{17}{section.2.4}
+\contentsline {chapter}{\numberline {3}Method}{19}{chapter.3}
+\contentsline {section}{\numberline {3.1}The double gyre model}{19}{section.3.1}
+\contentsline {section}{\numberline {3.2}Advecting a set of initial conditions}{20}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Generating a set of initial conditions}{20}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}On the choice of numerical step lengths and tolerance levels}{23}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}On the implementation of embedded Runge-Kutta methods}{24}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}Calculating the Cauchy-Green strain tensor field}{25}{section.3.3}
+\contentsline {section}{\numberline {3.4}Identifying LCS candidates numerically}{26}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}A framework for computing smooth strainlines}{26}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Extracting hyperbolic LCSs from strainlines}{28}{subsection.3.4.2}
+\contentsline {subsubsection}{Identifying strainlines which are local strain maximizers}{31}{subsubsection*.24}
+\contentsline {section}{\numberline {3.5}Estimation of errors}{35}{section.3.5}
+\contentsline {chapter}{\numberline {4}Results}{38}{chapter.4}
+\contentsline {section}{\numberline {4.1}The LCS curves obtained using the different integration schemes}{38}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}LCS curves stemming from singlestep methods}{38}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}LCS curves stemming from adaptive stepsize methods}{40}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Measures of error}{43}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Computed deviations in the flow maps}{44}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Computed deviations in the strain eigenvalues and -vectors}{45}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Computed deviations in the LCS curves}{48}{subsection.4.2.3}
+\vspace {\fill }\pagebreak 
+\contentsline {chapter}{\numberline {5}Discussion}{53}{chapter.5}
+\contentsline {section}{\numberline {5.1}Remarks on the computed LCSs}{53}{section.5.1}
+\contentsline {section}{\numberline {5.2}On the incompressibility of the velocity field}{56}{section.5.2}
+\contentsline {section}{\numberline {5.3}Concerning the numerical representation of tracers}{57}{section.5.3}
+\contentsline {section}{\numberline {5.4}Regarding the computation of strainlines}{58}{section.5.4}
+\contentsline {section}{\numberline {5.5}The identification of strain maximizing strainlines}{59}{section.5.5}
+\contentsline {section}{\numberline {5.6}About the measures of error}{60}{section.5.6}
+\contentsline {chapter}{\numberline {6}Conclusions}{62}{chapter.6}
+\contentsline {subsubsection}{Suggestions for further work}{63}{subsubsection*.51}
+\contentsline {chapter}{References}{65}{section*.52}

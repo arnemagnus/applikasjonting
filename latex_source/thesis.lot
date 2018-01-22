@@ -1,0 +1,14 @@
+\vspace {6ex}
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\contentsline {table}{\numberline {2.1}{\ignorespaces Butcher tableau representation of a general $s$-stage Runge-Kutta method}}{6}{table.caption.6}
+\contentsline {table}{\numberline {2.2}{\ignorespaces Butcher tableau representation of general, embedded, explicit Runge-Kutta methods}}{7}{table.caption.7}
+\contentsline {table}{\numberline {2.3}{\ignorespaces Butcher tableau representation of the explicit Euler method}}{7}{table.caption.9}
+\contentsline {table}{\numberline {2.4}{\ignorespaces Butcher tableau representation of the explicit Heun method}}{8}{table.caption.10}
+\contentsline {table}{\numberline {2.5}{\ignorespaces Butcher tableau representation of the explicit Kutta method}}{8}{table.caption.11}
+\contentsline {table}{\numberline {2.6}{\ignorespaces Butcher tableau representation of the explicit, classical Runge-Kutta method}}{9}{table.caption.12}
+\contentsline {table}{\numberline {2.7}{\ignorespaces Butcher tableau representation of the Bogacki-Shampine 3(2) embedded Runge-Kutta method}}{10}{table.caption.14}
+\contentsline {table}{\numberline {2.8}{\ignorespaces Butcher tableau representation of the Bogacki-Shampine 5(4) embedded Runge-Kutta method}}{11}{table.caption.15}
+\contentsline {table}{\numberline {2.9}{\ignorespaces Butcher tableau representation of the Dormand-Prince 5(4) embedded Runge-Kutta method}}{12}{table.caption.16}
+\contentsline {table}{\numberline {2.10}{\ignorespaces Butcher tableau representation of the Dormand-Prince 8(7) embedded Runge-Kutta method}}{13}{table.caption.17}
