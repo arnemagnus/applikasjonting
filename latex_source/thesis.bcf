@@ -1927,10 +1927,6 @@
     <bcf:citekey order="1">atomic2015fukushima</bcf:citekey>
     <bcf:citekey order="2">kapoor2017bali</bcf:citekey>
     <bcf:citekey order="3">obayashi2018stricken</bcf:citekey>
-    <bcf:citekey order="4">haller2000lagrangian</bcf:citekey>
-    <bcf:citekey order="5">strogatz2014nonlinear</bcf:citekey>
-    <bcf:citekey order="6">olascoaga2008tracing</bcf:citekey>
-    <bcf:citekey order="7">ali2007lagrangian</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
