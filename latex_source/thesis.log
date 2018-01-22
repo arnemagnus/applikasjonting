@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.15)  22 JAN 2018 20:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.15)  22 JAN 2018 23:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -3538,13 +3538,17 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineMonoT-TLF/m/n' will be
 (Font)              scaled to size 6.6pt on input line 16.
  (./mainmatter/mainmatter.tex (./mainmatter/introduction/introduction.tex
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 12.0pt on input line 59.
+(Font)              scaled to size 12.0pt on input line 71.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1
 
-{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])) [2]
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]))
+[3]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 16.0pt on input line 40.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
@@ -3553,8 +3557,7 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 12.0pt on input line 40.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sc' will be
 (Font)              scaled to size 12.0pt on input line 40.
- [3]
-(./backmatter/backmatter.tex)
+ [4] (./backmatter/backmatter.tex)
 
 Package caption Warning: Unused \captionsetup[figure] on input line 8.
 See the caption package documentation for explanation.
@@ -3573,13 +3576,13 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 54680 strings out of 492980
- 1191896 string characters out of 6132494
- 1794975 words of memory out of 5000000
- 57258 multiletter control sequences out of 15000+600000
- 608033 words of font info for 159 fonts, out of 8000000 for 9000
+ 54733 strings out of 492980
+ 1193282 string characters out of 6132494
+ 1794873 words of memory out of 5000000
+ 57276 multiletter control sequences out of 15000+600000
+ 611217 words of font info for 181 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,6n,96p,10416b,1621s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,6n,96p,10416b,1623s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/libertine/lbtn_ncsllp.enc
 }{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{
@@ -3588,10 +3591,10 @@ usr/local/texlive/2017/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pf
 b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/libertine/LinLibertine
 TB.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/libertine/LinLibe
 rtineTI.pfb>
-Output written on thesis.pdf (3 pages, 241006 bytes).
+Output written on thesis.pdf (4 pages, 246436 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
- 25125 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 77 PDF objects out of 1000 (max. 8388607)
+ 67 compressed objects within 1 object stream
+ 12 named destinations out of 1000 (max. 500000)
+ 25117 words of extra memory for PDF output out of 29859 (max. 10000000)
 

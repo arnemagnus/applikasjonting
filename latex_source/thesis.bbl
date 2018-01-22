@@ -54,6 +54,32 @@
       \field{pages}{1\bibrangedash 6}
       \range{pages}{6}
     \endentry
+    \entry{atomic2015fukushima}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=5b8d7fa539d867e69e4042cdf26cb7f2}{%
+           family={{Atomic Energy Society of Japan}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer, Japan}%
+      }
+      \strng{namehash}{5b8d7fa539d867e69e4042cdf26cb7f2}
+      \strng{fullhash}{5b8d7fa539d867e69e4042cdf26cb7f2}
+      \strng{bibnamehash}{5b8d7fa539d867e69e4042cdf26cb7f2}
+      \strng{authorbibnamehash}{5b8d7fa539d867e69e4042cdf26cb7f2}
+      \strng{authornamehash}{5b8d7fa539d867e69e4042cdf26cb7f2}
+      \strng{authorfullhash}{5b8d7fa539d867e69e4042cdf26cb7f2}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{isbn}{978-4-431-55160-7}
+      \field{title}{{The Fukushima Daiichi Nuclear Accident}}
+      \field{year}{2015}
+    \endentry
     \entry{haller2000lagrangian}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=811fef4cb69cc61054182a675ff01356}{%
@@ -92,6 +118,88 @@
       \field{year}{2000}
       \field{pages}{352\bibrangedash 370}
       \range{pages}{19}
+    \endentry
+    \entry{kapoor2017bali}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=e2d3c39a485b25c2703e5622ba614aed}{%
+           family={Kapoor},
+           familyi={K\bibinitperiod},
+           given={Kanupriya},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e2d3c39a485b25c2703e5622ba614aed}
+      \strng{fullhash}{e2d3c39a485b25c2703e5622ba614aed}
+      \strng{bibnamehash}{e2d3c39a485b25c2703e5622ba614aed}
+      \strng{authorbibnamehash}{e2d3c39a485b25c2703e5622ba614aed}
+      \strng{authornamehash}{e2d3c39a485b25c2703e5622ba614aed}
+      \strng{authorfullhash}{e2d3c39a485b25c2703e5622ba614aed}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{2}
+      \field{journaltitle}{Reuters}
+      \field{month}{12}
+      \field{title}{{More Bali flights canceled on forecast of volcanic ash}}
+      \field{urlday}{22}
+      \field{urlmonth}{1}
+      \field{urlyear}{2018}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.reuters.com/article/us-indonesia-volcano/more-bali-flights-canceled-on-forecast-of-volcanic-ash-idUSKBN1DW08G
+      \endverb
+      \verb{url}
+      \verb https://www.reuters.com/article/us-indonesia-volcano/more-bali-flights-canceled-on-forecast-of-volcanic-ash-idUSKBN1DW08G
+      \endverb
+    \endentry
+    \entry{obayashi2018stricken}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=87cb1e2ccb05474f5ea35c28e602e786}{%
+           family={Obayashi},
+           familyi={O\bibinitperiod},
+           given={Yuka},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=39978a3abca59bee6d524d87ea09b594}{%
+           family={Mason},
+           familyi={M\bibinitperiod},
+           given={Josephine},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{08e7d57c46550f379014b84786a552c5}
+      \strng{fullhash}{08e7d57c46550f379014b84786a552c5}
+      \strng{bibnamehash}{08e7d57c46550f379014b84786a552c5}
+      \strng{authorbibnamehash}{08e7d57c46550f379014b84786a552c5}
+      \strng{authornamehash}{08e7d57c46550f379014b84786a552c5}
+      \strng{authorfullhash}{08e7d57c46550f379014b84786a552c5}
+      \field{sortinit}{O}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{15}
+      \field{journaltitle}{Reuters}
+      \field{month}{1}
+      \field{title}{{Stricken tanker leaves large oil slick in East China Sea}}
+      \field{urlday}{22}
+      \field{urlmonth}{1}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.reuters.com/article/us-china-shipping-accident/stricken-tanker-leaves-large-oil-slick-in-east-china-sea-idUSKBN1F40GV
+      \endverb
+      \verb{url}
+      \verb https://www.reuters.com/article/us-china-shipping-accident/stricken-tanker-leaves-large-oil-slick-in-east-china-sea-idUSKBN1F40GV
+      \endverb
     \endentry
     \entry{olascoaga2008tracing}{article}{}
       \name{author}{4}{}{%
