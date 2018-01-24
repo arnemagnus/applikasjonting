@@ -1,0 +1,295 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{atomic2015fukushima}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=5b8d7fa539d867e69e4042cdf26cb7f2}{%
+           family={{Atomic Energy Society of Japan}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer, Japan}%
+      }
+      \strng{namehash}{5b8d7fa539d867e69e4042cdf26cb7f2}
+      \strng{fullhash}{5b8d7fa539d867e69e4042cdf26cb7f2}
+      \strng{bibnamehash}{5b8d7fa539d867e69e4042cdf26cb7f2}
+      \strng{authorbibnamehash}{5b8d7fa539d867e69e4042cdf26cb7f2}
+      \strng{authornamehash}{5b8d7fa539d867e69e4042cdf26cb7f2}
+      \strng{authorfullhash}{5b8d7fa539d867e69e4042cdf26cb7f2}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{isbn}{978-4-431-55160-7}
+      \field{title}{{The Fukushima Daiichi Nuclear Accident}}
+      \field{year}{2015}
+    \endentry
+    \entry{farazmand2012computing}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=4ef342266776ffdb566bb652f65e5db6}{%
+           family={Farazmand},
+           familyi={F\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=60b58400f1ee801211a968ce965c35f6}{%
+           family={Haller},
+           familyi={H\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Institute of Physics}%
+      }
+      \strng{namehash}{37df9e0021e96fb343d33d716c11e4db}
+      \strng{fullhash}{37df9e0021e96fb343d33d716c11e4db}
+      \strng{bibnamehash}{37df9e0021e96fb343d33d716c11e4db}
+      \strng{authorbibnamehash}{37df9e0021e96fb343d33d716c11e4db}
+      \strng{authornamehash}{37df9e0021e96fb343d33d716c11e4db}
+      \strng{authorfullhash}{37df9e0021e96fb343d33d716c11e4db}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Using the recently developed variational theory of hyperbolic Lagrangian coherent structures (LCSs), we introduce a computational approach that renders attracting and repelling LCSs as smooth, parametrized curves in two-dimensional flows. The curves are obtained as trajectories of an autonomous ordinary differential equation for the tensor lines of the Cauchy-Green strain tensor. This approach eliminates false positives and negatives in LCS detection by separating true exponential stretching from shear in a frame-independent fashion. Having an explicitly parametrized form for hyperbolic LCSs also allows for their further in-depth analysis and accurate advection as material lines. We illustrate these results on a kinematic model flow and on a direct numerical simulation of two-dimensional turbulence.}
+      \field{issn}{1054-1500}
+      \field{journaltitle}{{Chaos: An Interdisciplinary Journal of Nonlinear Science}}
+      \field{number}{1}
+      \field{title}{{Computing Lagrangian coherent structures from their variational theory}}
+      \field{volume}{22}
+      \field{year}{2012}
+      \field{pages}{013128}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.3690163
+      \endverb
+      \verb{eprint}
+      \verb http://dx.doi.org/10.1063/1.3690153
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1063/1.3690153
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1063/1.3690153
+      \endverb
+    \endentry
+    \entry{haller2000lagrangian}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=811fef4cb69cc61054182a675ff01356}{%
+           family={Haller},
+           familyi={H\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=556da54e44f4fecb8061bdecfce78cd5}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{cc69278402ca7a5aae406d6a14a3a544}
+      \strng{fullhash}{cc69278402ca7a5aae406d6a14a3a544}
+      \strng{bibnamehash}{cc69278402ca7a5aae406d6a14a3a544}
+      \strng{authorbibnamehash}{cc69278402ca7a5aae406d6a14a3a544}
+      \strng{authornamehash}{cc69278402ca7a5aae406d6a14a3a544}
+      \strng{authorfullhash}{cc69278402ca7a5aae406d6a14a3a544}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0167-2789}
+      \field{journaltitle}{Physica D: Nonlinear Phenomena}
+      \field{number}{3}
+      \field{title}{{Lagrangian coherent structures and mixing in two-dimensional turbulence}}
+      \field{volume}{147}
+      \field{year}{2000}
+      \field{pages}{352\bibrangedash 370}
+      \range{pages}{19}
+    \endentry
+    \entry{haller2010variational}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=60b58400f1ee801211a968ce965c35f6}{%
+           family={Haller},
+           familyi={H\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{60b58400f1ee801211a968ce965c35f6}
+      \strng{fullhash}{60b58400f1ee801211a968ce965c35f6}
+      \strng{bibnamehash}{60b58400f1ee801211a968ce965c35f6}
+      \strng{authorbibnamehash}{60b58400f1ee801211a968ce965c35f6}
+      \strng{authornamehash}{60b58400f1ee801211a968ce965c35f6}
+      \strng{authorfullhash}{60b58400f1ee801211a968ce965c35f6}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0167-2789}
+      \field{journaltitle}{Physica D: Nonlinear Phenomena}
+      \field{number}{7}
+      \field{title}{{A variational theory of hyperbolic Lagrangian Coherent Structures}}
+      \field{volume}{240}
+      \field{year}{2010}
+      \field{pages}{547\bibrangedash 598}
+      \range{pages}{52}
+    \endentry
+    \entry{kapoor2017bali}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=e2d3c39a485b25c2703e5622ba614aed}{%
+           family={Kapoor},
+           familyi={K\bibinitperiod},
+           given={Kanupriya},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e2d3c39a485b25c2703e5622ba614aed}
+      \strng{fullhash}{e2d3c39a485b25c2703e5622ba614aed}
+      \strng{bibnamehash}{e2d3c39a485b25c2703e5622ba614aed}
+      \strng{authorbibnamehash}{e2d3c39a485b25c2703e5622ba614aed}
+      \strng{authornamehash}{e2d3c39a485b25c2703e5622ba614aed}
+      \strng{authorfullhash}{e2d3c39a485b25c2703e5622ba614aed}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{2}
+      \field{journaltitle}{Reuters}
+      \field{month}{12}
+      \field{title}{{More Bali flights canceled on forecast of volcanic ash}}
+      \field{urlday}{22}
+      \field{urlmonth}{1}
+      \field{urlyear}{2018}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.reuters.com/article/us-indonesia-volcano/more-bali-flights-canceled-on-forecast-of-volcanic-ash-idUSKBN1DW08G
+      \endverb
+      \verb{url}
+      \verb https://www.reuters.com/article/us-indonesia-volcano/more-bali-flights-canceled-on-forecast-of-volcanic-ash-idUSKBN1DW08G
+      \endverb
+    \endentry
+    \entry{obayashi2018stricken}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=87cb1e2ccb05474f5ea35c28e602e786}{%
+           family={Obayashi},
+           familyi={O\bibinitperiod},
+           given={Yuka},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=39978a3abca59bee6d524d87ea09b594}{%
+           family={Mason},
+           familyi={M\bibinitperiod},
+           given={Josephine},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{08e7d57c46550f379014b84786a552c5}
+      \strng{fullhash}{08e7d57c46550f379014b84786a552c5}
+      \strng{bibnamehash}{08e7d57c46550f379014b84786a552c5}
+      \strng{authorbibnamehash}{08e7d57c46550f379014b84786a552c5}
+      \strng{authornamehash}{08e7d57c46550f379014b84786a552c5}
+      \strng{authorfullhash}{08e7d57c46550f379014b84786a552c5}
+      \field{sortinit}{O}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{15}
+      \field{journaltitle}{Reuters}
+      \field{month}{1}
+      \field{title}{{Stricken tanker leaves large oil slick in East China Sea}}
+      \field{urlday}{22}
+      \field{urlmonth}{1}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.reuters.com/article/us-china-shipping-accident/stricken-tanker-leaves-large-oil-slick-in-east-china-sea-idUSKBN1F40GV
+      \endverb
+      \verb{url}
+      \verb https://www.reuters.com/article/us-china-shipping-accident/stricken-tanker-leaves-large-oil-slick-in-east-china-sea-idUSKBN1F40GV
+      \endverb
+    \endentry
+    \entry{oettinger2016autonomous}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=5d1e1fb77668e1e85068331b2a29026b}{%
+           family={Oettinger},
+           familyi={O\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=60b58400f1ee801211a968ce965c35f6}{%
+           family={Haller},
+           familyi={H\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Institute of Physics}%
+      }
+      \strng{namehash}{53f1b5dfe5b2a9fe628a1d3e30ef7fa7}
+      \strng{fullhash}{53f1b5dfe5b2a9fe628a1d3e30ef7fa7}
+      \strng{bibnamehash}{53f1b5dfe5b2a9fe628a1d3e30ef7fa7}
+      \strng{authorbibnamehash}{53f1b5dfe5b2a9fe628a1d3e30ef7fa7}
+      \strng{authornamehash}{53f1b5dfe5b2a9fe628a1d3e30ef7fa7}
+      \strng{authorfullhash}{53f1b5dfe5b2a9fe628a1d3e30ef7fa7}
+      \field{sortinit}{O}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chaos: An Interdisciplinary Journal of Nonlinear Science}
+      \field{number}{10}
+      \field{title}{{An autonomous dynamical system captures all LCSs in three-dimensional unsteady flows}}
+      \field{volume}{26}
+      \field{year}{2016}
+      \field{pages}{103111}
+      \range{pages}{1}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

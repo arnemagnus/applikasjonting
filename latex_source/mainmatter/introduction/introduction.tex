@@ -1,3 +1,12 @@
+\begin{tabular}{ll}
+    \textbf{Navn:} & Arne Magnus Tveita Løken\\
+    \textbf{Veileder:} & Tor Nordam (Førsteamanuensis II, Institutt for fysikk;
+    Forsker, SINTEF Ocean)\\
+    \textbf{Biveileder:} & Ingve Simonsen (Professor, Institutt for fysikk)\\
+\end{tabular}
+
+\subsubsection*{Introduksjon}
+
 I mars 2011 traff Tohoku-tsunamien den japanske kysten. Foruten det store
 antallet dødsfall medførte tsunamien, sammen med jordskjelvet som forårsaket
 den, en katastrofal kjernefysisk nedsmelting i Fukushima-reaktoren
@@ -8,153 +17,112 @@ nærliggende flyplasser ble stengt. De mange kansellerte flyvningene etterlot
 tusenvis av passasjerer strandet på bakken \parencite{kapoor2017bali}. I januar
 2018 kolliderte den iranskeide oljetankeren Sanchi med et fraktskip fra Hong
 Kong i Øst-Kina-havet \parencite{obayashi2018stricken}.
-Tankeren havarerte, store mengder olje spredtes over havoverflaten og enda
+Tankeren havarerte, store mengder olje ble spredt over havoverflaten og enda
 større mengder sank til havbunnen sammen med vrakrestene, hvor oljen truer
 med å forurense også dypet av havet dersom beholderne gir etter for det
-enorme undersjøiske trykket.
+undersjøiske trykket.
 
 En fellesnevner for de tre ovennevnte naturkatastrofene er at materiale
 ble sluppet ut i naturen fra det som kan betraktes som punktkilder. Å predikere
 hvor de omsluttende havstrømmene eller de atmosfæriske vindsystemene fraktet
 forurensningene var --- og er --- uhyre viktig for å kunne begrense potensielle
-humanitære så vel som naturtragedier.
+humanitære så vel som naturtragedier. Den konvensjonelle måten å gjøre dette på,
+er å modellere vind- eller havstrømningsmønstre for å forutse banene
+forurensningspartikler vil følge, ved hjelp av numeriske metoder. De
+resulterende prediksjonene vil dog være svært sensitive til små endringer i
+forurensningspartiklenes utslippstidspunkt og -sted. For å forsøke å håndtere
+partiklenes høye grad av sensitivitet til deres initialbetingelser kan en
+benytte ulike modeller for det underliggende transportsystemet, med økende
+romlig og temporal oppløsning --- men, for komplekse transportsystemer medfører
+denne typen tilnærming ofte en beregningskostnad som raskt vokser utover de
+tilgjengelige midlene, hva gjelder beregningstid eller minne.
 
-Når en ønsker å analysere komplekse dynamiske system, som for eksempel de
-ikkelineære mangepartikkelproblemene som beskriver ulike transportfenomen
-som havstrømmer eller atmosfæriske vindmønstre, er den konvensjonelle
-tilnærmingen til prediksjon av fremtidige tilstander ved å simulere
-banene til fasepunkter ofte utilstrekkelig. Dette er fordi prediksjonene
-denn
+I mange tilfeller vil dog mikroskopiske detaljer i de underliggende
+transportfenomenene være uvesentlige i forhold til de overordnede tendensene
+i systemet. Dette betyr at en mindre ambisiøs tilnærming, med hovedfokus på
+å forstå de makroskopiske trendene i transportfenomenet, ofte er rimelig.
+Ved årtusenskiftet så konseptet om \emph{Lagrange-koherente strukturer} dagens
+lys, med utspring i skjæringspunktet mellom ikkelineær dynamikk --- de
+matematiske prinsippene som utgjør grunnlaget for kaosteori --- og
+fluiddynamikk \parencite{haller2000lagrangian}. Denne typen strukturer
+utgjør et nytt rammeverk for å forstå transportfenomener i en rekke
+strømningssystem. Lagrange-koherente strukturer kan beskrives som
+dynamiske "landskap" i et mangedimensjonalt rom, som dikterer makroskopiske
+flytmønstre i dynamiske system. Mer spesifikt definerer denne typen strukturer
+grensesnittene i dynamisk distinkte, invariante regioner. Fra fluiddynamikken
+kjennetegnes invariante regioner som domener hvor alle partikkelbaner som
+begynner innenfor domenet forblir der inne, selv om domenet kan bevege seg
+og deformeres over tid. Så, kort fortalt; Lagrange-koherente strukturer
+muliggjør prediksjoner for fremtidige tilstander i flytsystemer.
 
-%When analyzing complex dynamical systems, such as the nonlinear many-body
-%problems arising in transport phenomena by virtue of oceanic currents or
-%atmospheric winds, the conventional approach to predicting future states
-%by means of simulating the trajectories of phase points is frequently
-%insufficient. This is due to the resulting predictions being very sensitive to
-%small changes in time and initial positions. One way of addressing the delicate
-%dependence on initial conditions is to run different models for the same
-%underlying physical systems, of increasing spatial and temporal resolution. This
-%sort of approach is made possible because the fundamental dynamics are known ---
-%yet, for complex transport systems, the computational cost quickly grows beyond
-%the available resources, in terms of computation time or memory. For many
-%practical purposes, however, microscopic details matter little in comparison to
-%the overarching trends in the system, which means that a less ambitious
-%approach, merely aiming to understand the macroscopics of the transport
-%phenomenon, is often justifiable.
-%
-%At the turn of the millennium, the concept of Lagrangian coherent structures
-%saw the light of day, emerging from the intersection between nonlinear dynamics,
-%that is, the underlying mathematical principles of chaos theory, and fluid
-%dynamics \parencite{haller2000lagrangian}. These provide a new framework for
-%understanding transport phenomena in conceptual fluid flow systems. Lagrangian
-%coherent structures can be described as time-evolving `landscapes' in a
-%multidimensional space, which dictate macroscopical flow patterns in dynamical
-%systems. In particular, such structures define the interfaces of dynamically
-%distinct, invariant regions. An invariant region in fluid dynamics is
-%characterized as a domain where all particle trajectories that originate within
-%the region, remain in it, although the region itself can move and deform with
-%time. So, simply put; Lagrangian coherent structures enable us to make
-%predictions regarding the future states of flow systems.
-%
-%There are two possible perspectives regarding the description of fluid flow.
-%The Eulerian approach is to consider the properties of a flow field at a set of
-%fixed points in time and space. An example is the concept of velocity fields,
-%which produce the local and instantaneous velocities at all points within their
-%domains. The Lagrangian point of view, on the other hand, concerns the
-%developing velocity of each fluid element along their paths, as they are
-%transported by the flow. Unlike the Eulerian perspective, the Lagrangian
-%mindset is objective, as in frame-invariant. That is, properties of Lagrangian
-%fields are unchanged by time-dependent translations and rotations of the
-%reference frame. For unsteady flow systems, which are more common than steady
-%%flow systems in nature, there exists no self-evident preferred frame of
-%reference. Thus, any transport-dictating dynamical structures should
-%hold for \emph{any} choice of reference frame. This is the main
-%rationale for which \emph{Lagrangian}, rather than \emph{Eulerian}, coherent
-%structures have been pursued.
-%
-%A generic flow system can be described as a structure whose state depends on
-%flowing streams of energy, material or information. Conventional examples of
-%flow systems include the transport of physical properties such as pressure,
-%temperature or matter in fluids, and the transport of charge in electrical
-%currents. A large variety of phenomena can reasonably be modelled as flow
-%systems, such as the classical harmonic oscillator, or the interaction between
-%predator and prey in closed systems
-%\parencite[parts I--II]{strogatz2014nonlinear}. In doing so, valuable pieces
-%of insight can be obtained from well-understood properties of generic flows.
-%In recent years, analyses based upon Lagrangian coherent structures have been
-%conducted for a variety of naturally occuring phenomena which are not
-%commonly considered as flow systems. Two prominent examples are how
-%\textcite{olascoaga2008tracing} used Lagrangian coherent structures in order
-%to forecast the development of toxic algae in the ocean, and
-%\textcite{ali2007lagrangian} used Lagrangian coherent structures to predict
-%the formation and stability of human crowd patterns. As these examples
-%emphasize, the theory of Lagrangian coherent structures is applicable to a
-%wide range of systems.
-%
-%Although the framework for detecting Lagrangian coherent structures is
-%mathematically valid for any number of dimensions, the focus of this project
-%work has been two-dimensional flow systems. Many natural processes can
-%reasonably be described as two-dimensional, perhaps most notably the transport
-%of debris and contaminations, such as garbage patches or the remnants of
-%an oil spill, by means of oceanic surface currents. Being able to successfully
-%predict where such particles will be taken by the flow could enable us to
-%isolate them and accelerate the cleanup process before the particles are able
-%to reach the coastline, thus mitigating potential humanitarian and natural
-%calamities.
-%
-%%\newpage
-%%
-%At the heart of detecting Lagrangian coherent structures lies the advection
-%of (generalized) fluid elements by means of a velocity field, which describes
-%the system under consideration. This is true both for test cases, where the
-%velocity profile is known analytically, and for real-life systems, typically
-%described by means of some model for the instantaneous velocity field. For this
-%project work, the topic of interest is how the detection of Lagrangian coherent
-%structures depends on the choice of numerical integration method used in order
-%to compute the aforementioned particle transport. In particular, four singlestep
-%methods and four embedded, adaptive step length methods, each with different
-%properties, were used in order to advect a collection of fluid elements by means
-%of an analytically known, two-dimensional, unsteady velocity field.
-%
-%This thesis is structured based on the idea that readers possessing
-%at least an undergraduate level of knowledge of physics and mathematics, in
-%addition to a rudimentary understanding of programming, should be able to
-%understand and repeat the numerical investigations which have been conducted.
-%To this end, the immediately forthcoming chapter contains a description of the
-%various numerical integration schemes that were utilized, in addition to a
-%generic yet brief mathematical description of the kind of flow systems
-%considered and the Lagrangian coherent structures situated therein, the latter
-%based on variational theory. In the ensuing chapter, we present a transport
-%model frequently used in literature --- whose Lagrangian coherent structures
-%are documented --- in addition to a description of how the variational
-%principles of Lagrangian coherent structure detection were implemented
-%numerically. Lastly, the results are presented and discussed, before the
-%conclusions of the project as a whole are drawn.
-%
-%
-%%\begin{framed}
-%%    \begin{itemize}
-%%        \item \sout{Lagrangian coherent structure: A structure that can separate dynamically
-%%            distinct invariant regions. Invariant retions: All trajectories starting
-%%            out within it, remains within the region, although the region itself
-%%        may move and deform with time.}
-%%    \item \sout{Lagrangian coherent structure: Landscapes in multidimensional
-%%        landscapes, shaping the flow patterns in dynamical systems.}
-%%    \item \sout{Motivation: Complex systems, i.e., many-particle nonlinear
-%%        systems: Need computational shortcuts}
-%%    \item \sout{LCS: Principally robust structures which enable us
-%%                        to make predictions regarding the future states of
-%%                    a flow system.}
-%%                \item \sout{Examples of real-world application:}
-%%                            \begin{itemize}
-%%                                \item \sout{Population growth}
-%%                                \item \sout{Predicting the advection of particles by means of oceanic currents or wind}
-%%    \begin{itemize}
-%%        \item \sout{Recent examples: The volcanic eruptions at Eyafjällajökul, and
-%%            at Bali (2017)}
-%%    \end{itemize}
-%%\item \sout{Predicting where the remnants of an oil spill will end up --> Where to focus
-%%    the rescue operation in the short and medium term}
-%%                            \end{itemize}
-%%    \end{itemize}
-%%\end{framed}
+\subsubsection*{Bakgrunn}
+
+Det underliggende teoretiske rammeverket for Lagrange-koherente strukturer
+er veletablert. Ved hjelp av variasjonsteori har nødvendige og
+tilstrekkelige eksistensbetingelser for slike strukturer blitt identifisert,
+i prinsipp gjeldende for et vilkårlig (heltallig) antall dimensjoner
+\parencite{haller2010variational}. Til dags dato (og så vidt undertegnede vet)
+har dog ikke en god numerisk implementasjonsmetode for flere av disse
+betingelsene blitt beskrevet i litteraturen.
+%Følgelig har flere forfattere
+%nøyd seg med å benytte såkalte Lyapunoveksponenter som indikatorer på
+%Lagrange-koherente strukturer, se f.eks. \textcite{olascoaga2008tracing} eller
+%\textcite{shadden2005definition}. Denne tilnærmingen er dog langt fra feilfri,
+%selv for konseptuelt simple strømningssystem resulterer bruk av
+%Lyapunoveksponenter i både falske positive og falske negative
+%\parencite{haller2010variational}.
+
+For todimensjonale strømninger forenkles flere av eksistensbetingelsene
+vesentlig, og denne typen systems Lagrange-koherente strukturer kan
+prinsipielt beskrives som kurver i et plan. I en relativt nylig publikasjon
+anvendes de ovennevnte variasjonsprinsippene for å identifisere
+Lagrange-koherente strukturer i modellstrømning så vel som eksperimentelle data
+\parencite{farazmand2012computing}. Utfordringen med denne artikkelen er at
+forfatterne utelater en fullstendig beskrivelse av hvordan de tar hånd om
+de mest numeriske utfordrende av eksistensbetingelsene. I en nyere artikkel
+betraktes tredimensjonale strømningssystem, hvor de Lagrange-koherente
+strukturene utgjør overflater i rommet \parencite{oettinger2016autonomous}.
+Ei heller her presenterer forfatterne en fullstendig beskrivelse av deres
+implementasjon av flere av strukturenes eksistensbetingelser. Videre presenterer
+de noen av utfordringene ved å utvikle tredimensjonale flater numerisk, og
+henviser videre til topologiske studier innenfor dette fagfeltet. Hvorvidt
+enkelte metoder egner seg bedre hva gjelder å identifisere Lagrange-koherente
+strukturer kommer ikke frem i artiklene.
+
+Med utgangspunkt i det ovenstående, virker det å være stort rom for forskning
+innen utvikling av gode og effektive numeriske rutiner for å beregne
+Lagrange-koherente strukturer i både to og tre romlige dimensjoner, som for
+eksempel med utgangspunkt i modelldata for havstrømninger eller atmosfæriske
+vindmønstre. Lagrange-koherente strukturer kan i prinsippet anvendes for å
+analysere generiske strømningsfenomen, som i tillegg til de tidligere nevnte
+naturfenomenene kan omfatte blodtransport i hjertet, smitte av lakselus
+mellom oppdrettsanlegg, eller utvikling av menneskelige forsamlingsmønstre ---
+fantasien setter grensene. Med andre ord vil mer forskning innen numeriske
+rutiner for å beregne Lagrange-koherente strukturer ha stort nedslagsfelt innen
+en rekke fagdisipliner.
+
+\subsubsection*{Mål}
+
+Arbeidet med Lagrange-koherente strukturer vil være en forlengelse av
+arbeidet jeg allerede har gjort, og planlegger å gjennomføre, hhv i forbindelse
+med fordypningsprosjekt og masteroppgave. Arbeidets fokus vil først og fremst
+være utvikling av gode numeriske metoder for generelle strømningssystem,
+heller enn en spesifikk anvendelse. Av den grunn må den skisserte oppgaven
+beskrives som en oppgave innen numerisk fysikk.
+
+Som et konkret delmål faller det naturlig å sammenligne ulike måter å beregne
+Cauchy-Greens deformasjonstensor for et gitt strømningsmønster. Tensoren
+spiller en viktig rolle i de Lagrange-koherente strukturenes variasjonsteori;
+blant annet er dens egenverdier og -vektorer sentrale i flere av
+strukturenes eksistensbetingelser. Helt konkret vil det være av interesse å
+se på bruk av endelige differansemetoder til å estimere
+deformasjonstensoren sammenlignet med numerisk løsning av et velkjent koblet
+sett med differensialligninger som stammer fra variasjonsregning hvis
+sluttresultat kan analyseres ved en SVD-dekomposisjon for å beregne
+tensorens egenverdier og -vektorer, med hensyn til presisjonen i de resulterende
+Lagrange-koherente strukturene.
+
+Et håndfast mål, hvilket også kan utgjøre hovedinnholdet i en vitenskapelig
+publikasjon på mellomlang sikt, vil være å beregne Lagrange-koherente strukturer
+for norske farvann, først i to og så tre dimensjoner, basert på modelldata fra
+Meteorologisk institutt.
