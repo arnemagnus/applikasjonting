@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.15)  24 JAN 2018 17:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.15)  24 JAN 2018 21:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -3193,21 +3193,29 @@ LaTeX Info: Redefining \Cpagerefrange on input line 2230.
 LaTeX Info: Redefining \labelcref on input line 2230.
 LaTeX Info: Redefining \labelcpageref on input line 2230.
 )
+(/usr/local/texlive/2017/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip123
+\enit@outerparindent=\dimen327
+\enit@toks=\toks54
+\enit@inbox=\box73
+\enitdp@description=\count473
+)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2017/10/31 v2.20.4
-\thm@style=\toks54
-\thm@bodyfont=\toks55
-\thm@headfont=\toks56
-\thm@notefont=\toks57
-\thm@headpunct=\toks58
-\thm@preskip=\skip123
-\thm@postskip=\skip124
-\thm@headsep=\skip125
-\dth@everypar=\toks59
+\thm@style=\toks55
+\thm@bodyfont=\toks56
+\thm@headfont=\toks57
+\thm@notefont=\toks58
+\thm@headpunct=\toks59
+\thm@preskip=\skip124
+\thm@postskip=\skip125
+\thm@headsep=\skip126
+\dth@everypar=\toks60
 LaTeX Info: Redefining \textsquare on input line 428.
 )
-\c@thm=\count473
-\c@defn=\count474
+\c@thm=\count474
+\c@defn=\count475
 )
 (./_setup_files/functions.tex
 (/usr/local/texlive/2017/texmf-dist/tex/latex/titlesec/block.tss
@@ -3215,8 +3223,8 @@ File: block.tss 2016/03/15
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/titlesec/ttlkeys.def
 File: ttlkeys.def 2016/03/15
-\c@ttlp@side=\count475
-\ttlp@side=\count476
+\c@ttlp@side=\count476
+\ttlp@side=\count477
 )
 Package biblatex Info: Redefining '\cite' on input line 227.
 Package biblatex Info: Redefining '\parencite' on input line 241.
@@ -3362,21 +3370,21 @@ Package microtype Warning: \nonfrenchspacing is active. Adjustment of
 (microtype)                to add `\microtypecontext{spacing=nonfrench}'
 (microtype)                to your preamble.
 
-\c@mv@tabular=\count477
-\c@mv@boldtabular=\count478
+\c@mv@tabular=\count478
+\c@mv@boldtabular=\count479
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count479
-\scratchdimen=\dimen327
-\scratchbox=\box73
-\nofMPsegments=\count480
-\nofMParguments=\count481
-\everyMPshowfont=\toks60
-\MPscratchCnt=\count482
-\MPscratchDim=\dimen328
-\MPnumerator=\count483
-\makeMPintoPDFobject=\count484
-\everyMPtoPDFconversion=\toks61
+\scratchcounter=\count480
+\scratchdimen=\dimen328
+\scratchbox=\box74
+\nofMPsegments=\count481
+\nofMParguments=\count482
+\everyMPshowfont=\toks61
+\MPscratchCnt=\count483
+\MPscratchDim=\dimen329
+\MPnumerator=\count484
+\makeMPintoPDFobject=\count485
+\everyMPtoPDFconversion=\toks62
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -3407,7 +3415,7 @@ ick labels; missing features). Consider writing \pgfplotsset{compat=1.15} into
 your preamble.
  on input line 16.
 
-\AtBeginShipoutBox=\box74
+\AtBeginShipoutBox=\box75
 (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 
@@ -3441,12 +3449,12 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count485
+\c@section@level=\count486
 )
 LaTeX Info: Redefining \ref on input line 16.
 LaTeX Info: Redefining \pageref on input line 16.
 LaTeX Info: Redefining \nameref on input line 16.
-\c__siunitx_mathsf_int=\count486
+\c__siunitx_mathsf_int=\count487
 LaTeX Font Info:    Try loading font information for OT1+LinuxLibertineT-TLF on
  input line 16.
 
@@ -3519,7 +3527,7 @@ LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
 (Font)              scaled to size 8.8pt on input line 16.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
 (Font)              scaled to size 6.6pt on input line 16.
-\c__siunitx_mathtt_int=\count487
+\c__siunitx_mathtt_int=\count488
 LaTeX Font Info:    Try loading font information for T1+LinuxLibertineMonoT-TLF
  on input line 16.
 
@@ -3555,7 +3563,7 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
 [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \vbox (badness 1215) has occurred while \output is active []
+Underfull \vbox (badness 1067) has occurred while \output is active []
 
  [2]))
 [3]
@@ -3584,13 +3592,13 @@ Package logreq Info: Writing requests to 'prosjektskisse.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 54769 strings out of 492980
- 1194293 string characters out of 6132494
- 1795937 words of memory out of 5000000
- 57284 multiletter control sequences out of 15000+600000
- 624221 words of font info for 202 fonts, out of 8000000 for 9000
+ 55074 strings out of 492980
+ 1199664 string characters out of 6132494
+ 1802039 words of memory out of 5000000
+ 57571 multiletter control sequences out of 15000+600000
+ 625313 words of font info for 210 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,6n,96p,10416b,1644s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,6n,96p,10416b,1717s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/libertine/lbtn_ncsllp.enc
 }{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}{
@@ -3598,11 +3606,12 @@ Here is how much of TeX's memory you used:
 usr/local/texlive/2017/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pf
 b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/libertine/LinLibertine
 TB.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/libertine/LinLibe
-rtineTI.pfb>
-Output written on prosjektskisse.pdf (4 pages, 249774 bytes).
+rtineTI.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/lat
+xfont/lcircle1.pfb>
+Output written on prosjektskisse.pdf (4 pages, 255743 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
- 69 compressed objects within 1 object stream
- 12 named destinations out of 1000 (max. 500000)
+ 101 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
+ 14 named destinations out of 1000 (max. 500000)
  26141 words of extra memory for PDF output out of 29859 (max. 10000000)
 

@@ -109,19 +109,60 @@ med fordypningsprosjekt og masteroppgave. Arbeidets fokus vil først og fremst
 være utvikling av gode numeriske metoder for beregning av Lagrange-koherente
 strukturer i generelle strømningssystem, snarere enn en spesifikk anvendelse.
 
-Konkrete delmål vil være å undersøke og utvikle numeriske metoder for de ulike stegene som kreves for å identifisere Lagrange-koherente strukturer. Dette inkluderer:
+Konkrete delmål vil være å undersøke og utvikle numeriske metoder for de ulike
+stegene som kreves for å identifisere Lagrange-koherente strukturer. Dette
+inkluderer:
 \begin{itemize}[noitemsep]
     \item Beregning av Cauchy-Greens deformasjonstensor
     \item Numerisk integrasjon av baner i diskontinuerlig vektorfelt
-    \item Identifikasjon av lokalt maksimalt tiltrekkende/frastøtende linjer og flater
+    \item Identifikasjon av lokalt maksimalt tiltrekkende/frastøtende linjer og
+        flater
 \end{itemize}
-Ulike måter å beregne Cauchy-Green-tensoren spiller en viktig rolle i de Lagrange-koherente strukturenes variasjonsteori; blant annet er dens egenverdier og -vektorer sentrale i flere av strukturenes eksistensbetingelser. Den første av to sentrale metoder benytter endelige differansemetoder til å estimere deformasjonstensoren fra en numerisk beregnet strømningsavbildning, og er benyttet til identifikasjon av Lagrange-koherente strukturer i to dimensjoner~\parencite{farazmand2012computational, loken2017}. En alternativ metode innebærer å numerisk løse et koblet sett med differensialligninger, hvis sluttresultat kan analyseres ved en SVD-dekomposisjon for å beregne tensorens egenverdier og -vektorer. Den siste metoden er i litteraturen foreslått benyttet i tre dimensjoner, og hevdes å gi bedre presisjon i de resulterende Lagrange-koherente strukturene, dog dette later ikke til å være godt undersøkt~\parencite{oettinger2016autonomous}.
+Ulike måter å beregne Cauchy-Green-tensoren spiller en viktig rolle i de
+Lagrange-koherente strukturenes variasjonsteori; blant annet er dens egenverdier
+og -vektorer sentrale i flere av strukturenes eksistensbetingelser. Den første
+av to sentrale metoder benytter endelige differansemetoder til å estimere
+deformasjonstensoren fra en numerisk beregnet strømningsavbildning, og har blitt
+benyttet til identifikasjon av Lagrange-koherente strukturer i to
+dimensjoner \parencite{farazmand2012computing, loken2017}. En alternativ
+metode innebærer å numerisk løse et koblet sett med differensialligninger, hvis
+sluttresultat kan analyseres ved en SVD-dekomposisjon for å beregne tensorens
+egenverdier og -vektorer. Den siste metoden er i litteraturen foreslått
+benyttet i tre dimensjoner, og hevdes å gi bedre presisjon i de resulterende
+Lagrange-koherente strukturene, uten at dette later til å ha blitt undersøkt
+i detalj \parencite{oettinger2016autonomous}.
 
-Lagrange-koherente strukturer kan vises å være baner i egenvektorfeltet assosiert med en av egenverdiene til Cauchy-Greens deformasjonstensor. Siden egenvektorer bare er definert opp til en 180-graders rotasjon må man lokalt korrigere orienteringen til vektorfeltet, før interpolasjon til vilkårlig posisjon, for hvert steg i integrasjonen av en bane. Denne komplikasjonen tatt i betraktning er det uavklart hvilken orden av interpolasjon som gir den beste balansen mellom regnetid og presisjon; høyere ordens interpolasjon krever at flere punkter blir korrigert og tatt med i betraktningen.
+Lagrange-koherente strukturer kan vises å være (tangentielle til) baner i
+egenvektorfeltet assosiert med en av egenverdiene til Cauchy-Greens
+deformasjonstensor. Siden egenvektorer bare er definert opp til en 180-graders
+rotasjon må en lokalt korrigere orienteringen til vektorfeltet, før
+interpolasjon til vilkårlig posisjon, for hvert steg i integrasjonen av en bane.
+Denne komplikasjonen tatt i betraktning er det uavklart hvilken orden av
+interpolasjon som gir den beste balansen mellom regnetid og presisjon;
+høyere ordens interpolasjon krever at flere punkter blir korrigert og tatt med
+i betraktningen.
 
-Utvelgelsen av lokalt maksimalt tiltrekkende eller frastøtende linjer og flater er det siste steget i identifikasjonen av Lagrange-koherente strukturer i henholdsvis to og tre dimensjoner. Metoder for slik utvelgelse er skissert i litteraturen~\parencite{farazmand2012computational, oettinger2016autonomous}, men mangelfullt beskrevet. I to dimensjoner har den foreslåtte metoden i tillegg vist seg å være svært sensitiv til flere fritt valgbare parametere~\parencite{loken2017}. I tre dimensjoner beskrives en metode basert på Poincar\'{e}-avbildninger, og metoden er demonstrert for et analytisk testsystem med periodiske grensebetingelser. For å kunne identifisere Lagrange-koherente strukturer i reelle systemer, være det seg strømning i atmosfæren, en fjord eller et hjertekammer, er man avhengig av en metode som ikke krever periodiske grensebetingelser.
+Utvelgelsen av lokalt maksimalt tiltrekkende eller frastøtende linjer og flater
+er det siste steget i identifikasjonen av hyperbolske Lagrange-koherente
+strukturer i henholdsvis to og tre dimensjoner. Metoder for slik utvelgelse er
+skissert i litteraturen, se hhv. \textcite{farazmand2012computing} og
+\parencite{oettinger2016autonomous}, men mangelfullt beskrevet. I to dimensjoner
+har den foreslåtte metoden i tillegg vist seg å være svært sensitiv til flere
+fritt valgbare parametere \parencite{loken2017}. I tre dimensjoner beskrives en
+metode basert på Poincar\'{e}-avbildninger, og metoden er demonstrert for et
+analytisk testsystem med periodiske grensebetingelser. For å kunne identifisere
+Lagrange-koherente strukturer i reelle systemer, det være seg strømning i
+atmosfæren, en fjord eller et hjertekammer, er man avhengig av en metode som
+ikke krever periodiske grensebetingelser.
 
-Selv om fokuset i prosjektet vil være metodeutvikling, vil det være ønskelig å undersøke en eller flere konkrete anvendelser. Et håndfast mål, hvilket også kan utgjøre hovedinnholdet i en vitenskapelig
+Selv om fokuset i prosjektet vil være metodeutvikling, vil det være ønskelig å
+undersøke en eller flere konkrete anvendelser. Et håndfast mål, hvilket også
+kan utgjøre hovedinnholdet i en vitenskapelig
 publikasjon, vil være å beregne Lagrange-koherente strukturer
 for norske farvann, først i to og så tre dimensjoner, basert på modelldata fra
-Meteorologisk institutt. Meteorologisk institutt publiserer daglig et strømvarsel for norskekysten~\parencite{norkyst800}. Dette utgjør blant annet en del av beredskapen ved akutte utslipp av olje eller andre kjemikalier. En robust og effektiv numerisk metode for automatisk identifisering av transportbarrierer i de varslede strømdataene vil være av stor interesse.
+Meteorologisk institutt. Meteorologisk institutt publiserer daglig et
+strømvarsel for norskekysten \parencite{albretsen2011norkyst}. Dette utgjør
+blant annet en del av beredskapen ved akutte utslipp av olje eller andre
+kjemikalier. En robust og effektiv numerisk metode for automatisk
+identifisering av transportbarrierer i de varslede strømdataene vil være av stor
+interesse.

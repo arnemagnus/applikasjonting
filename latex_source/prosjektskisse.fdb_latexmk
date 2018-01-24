@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber prosjektskisse"] 1516810710 "prosjektskisse.bcf" "prosjektskisse.bbl" "prosjektskisse" 1516811907
-  "bibliography/references.bib" 1516778972 17990 67829d7aa354d899d4c420ea093b7170 ""
-  "prosjektskisse.bcf" 1516811907 88799 97c6e816c87eda7a7ff348ce4ba4e963 ""
+["biber prosjektskisse"] 1516825838 "prosjektskisse.bcf" "prosjektskisse.bbl" "prosjektskisse" 1516825845
+  "bibliography/references.bib" 1516825837 18665 8257addd2eb35baa01fe42ce630085b3 ""
+  "prosjektskisse.bcf" 1516825844 89225 b50c1a2c1635ef7c3e572ccd0a00acd6 ""
   (generated)
-  "prosjektskisse.blg"
   "prosjektskisse.bbl"
-["pdflatex"] 1516811905 "source.tex" "prosjektskisse.pdf" "prosjektskisse" 1516811907
+  "prosjektskisse.blg"
+["pdflatex"] 1516825842 "source.tex" "prosjektskisse.pdf" "prosjektskisse" 1516825845
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc" 1490133665 2933 9ad527ce78d7c5fa0a642dead095f172 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc" 1490133665 2934 a4a9158faed2e9e89c771b4e3b7fc12f ""
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/libertine/lbtn_ncsllp.enc" 1490133665 3288 25b5d43be7be8cba51d85b642598b3b0 ""
@@ -48,6 +48,7 @@
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/newtx/nxlmi.tfm" 1480098716 1944 f113d16d532766f50e7f835f3d7824a3 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/newtx/nxlmi7.tfm" 1480098716 2008 d49c810c78cd4b18993104200e27b86b ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/newtx/nxlmia.tfm" 1480098716 2520 622c5ff222677e3fef49edd9f5ca81a2 ""
+  "/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb" 1480098733 10594 310261a6407d360eda1ed257d05cd4df ""
   "/usr/local/texlive/2017/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb" 1480098742 614791 ea39341e4db76f25cb20c361802d3cd5 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb" 1480098742 538965 19c5c8b7f952ac97afb8565e9c21a82d ""
   "/usr/local/texlive/2017/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb" 1480098742 490980 e27f1e217a0902faea22205f197918d4 ""
@@ -221,6 +222,7 @@
   "/usr/local/texlive/2017/texmf-dist/tex/latex/csquotes/csquotes.cfg" 1480098826 7068 06f8d141725d114847527a66439066b6 ""
   "/usr/local/texlive/2017/texmf-dist/tex/latex/csquotes/csquotes.def" 1489276865 18416 6389fc6e84e23e8e8c6f07d1ddf49e1e ""
   "/usr/local/texlive/2017/texmf-dist/tex/latex/csquotes/csquotes.sty" 1489276865 61418 35a400aa0504b876883759f43a70d6f3 ""
+  "/usr/local/texlive/2017/texmf-dist/tex/latex/enumitem/enumitem.sty" 1480098827 42666 6fa770e3485520a6a5f2ea7d259c8f8d ""
   "/usr/local/texlive/2017/texmf-dist/tex/latex/epigraph/epigraph.sty" 1480098827 4493 37cd2a99f1ea97dde5b8561155682d0e ""
   "/usr/local/texlive/2017/texmf-dist/tex/latex/eso-pic/eso-pic.sty" 1480098827 11954 3abdeb9fbc956bcd048295dd83dd5e7c ""
   "/usr/local/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1511390543 42406 384cd1b5365eec2839a9362df1f823ea ""
@@ -324,17 +326,17 @@
   "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1516013411 4131550 e5edd441f555024d932ca945a2608017 ""
   "/usr/local/texlive/2017/texmf.cnf" 1514816757 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
   "_setup_files/functions.tex" 1512407564 8903 ef52671f2f03f17b6f3e0afd90396053 ""
-  "_setup_files/packages.tex" 1516661643 5139 df64d84893d75c98492494f1710d91da ""
+  "_setup_files/packages.tex" 1516825041 5210 03d5c96115377e125be47acb4819075b ""
   "backmatter/backmatter.tex" 1512122980 360 aee66d502670ffaab457ef0d113b5c25 ""
-  "mainmatter/introduction/introduction.tex" 1516811904 8028 483c80e2bb67fbe8d10ea0bc8090bd05 ""
+  "mainmatter/introduction/introduction.tex" 1516825791 10563 29e2c361c4a9b3a805a895175484d0dd ""
   "mainmatter/mainmatter.tex" 1516649105 113 0aca5a7c3fc1d69980ae94d2dd7ccaaf ""
-  "prosjektskisse.aux" 1516811907 7196 08bcf8c465a75eecccebb531feed1ae0 ""
-  "prosjektskisse.bbl" 1516810711 12193 456aa937a44c77de069f38ef07b8d5b2 "biber prosjektskisse"
-  "prosjektskisse.run.xml" 1516811907 2423 ea048a8bfc6950c14b0405f4cbfac66d ""
+  "prosjektskisse.aux" 1516825844 11011 7bd49503e8de0b5d128b53e7f6c91c79 ""
+  "prosjektskisse.bbl" 1516825839 15779 6f70ef73732ed05d0f5986f72bb60dd4 "biber prosjektskisse"
+  "prosjektskisse.run.xml" 1516825844 2423 ea048a8bfc6950c14b0405f4cbfac66d ""
   "source.tex" 1516661528 926 cde95c78617931c9c605b1c15b5e8b3e ""
   (generated)
+  "prosjektskisse.run.xml"
+  "prosjektskisse.aux"
+  "prosjektskisse.bcf"
   "prosjektskisse.pdf"
   "prosjektskisse.log"
-  "prosjektskisse.bcf"
-  "prosjektskisse.aux"
-  "prosjektskisse.run.xml"

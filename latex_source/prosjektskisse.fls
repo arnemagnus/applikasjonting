@@ -414,6 +414,8 @@ INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/bkm-pdftex.def
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/bkm-pdftex.def
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/cleveref/cleveref.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/cleveref/cleveref.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/enumitem/enumitem.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/enumitem/enumitem.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/amscls/amsthm.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/amscls/amsthm.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/lbx/norsk.lbx
@@ -572,3 +574,4 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.e
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb

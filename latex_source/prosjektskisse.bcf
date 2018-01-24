@@ -1931,6 +1931,13 @@
     <bcf:citekey order="5">haller2010variational</bcf:citekey>
     <bcf:citekey order="6">farazmand2012computing</bcf:citekey>
     <bcf:citekey order="7">oettinger2016autonomous</bcf:citekey>
+    <bcf:citekey order="8">farazmand2012computing</bcf:citekey>
+    <bcf:citekey order="8">loken2017</bcf:citekey>
+    <bcf:citekey order="9">oettinger2016autonomous</bcf:citekey>
+    <bcf:citekey order="10">farazmand2012computing</bcf:citekey>
+    <bcf:citekey order="11">oettinger2016autonomous</bcf:citekey>
+    <bcf:citekey order="12">loken2017</bcf:citekey>
+    <bcf:citekey order="13">albretsen2011norkyst</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

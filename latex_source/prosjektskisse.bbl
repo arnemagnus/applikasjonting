@@ -19,6 +19,65 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{albretsen2011norkyst}{article}{}
+      \name{author}{6}{}{%
+        {{uniquename=0,uniquepart=base,hash=b85a1aa08283b9c227d816fd4c53e57a}{%
+           family={Albretsen},
+           familyi={A\bibinitperiod},
+           given={Jon},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e1e234e70503b50dfcd9ebf938de3403}{%
+           family={Sperrevik},
+           familyi={S\bibinitperiod},
+           given={Ann\bibnamedelima Kristin},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4b78525fc44ab54cfe2f8db0897c03f4}{%
+           family={Staalstrøm},
+           familyi={S\bibinitperiod},
+           given={André{}},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d2b2ccec1d3157ea9b25373139818571}{%
+           family={Sandvik},
+           familyi={S\bibinitperiod},
+           given={Anne\bibnamedelima D.},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d55f25ab9ed57ed290a52a74d34bd8e1}{%
+           family={Vikebø},
+           familyi={V\bibinitperiod},
+           given={Frode},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=fb225e0f0e662f8bd355d1f9a2ca0433}{%
+           family={Asplin},
+           familyi={A\bibinitperiod},
+           given={Lars},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Institute of Marine Research}%
+      }
+      \strng{namehash}{aaf683fd89843cf977659d77e6ba2f11}
+      \strng{fullhash}{64aa4ae72f55d631c5d5b10f5cf713eb}
+      \strng{bibnamehash}{aaf683fd89843cf977659d77e6ba2f11}
+      \strng{authorbibnamehash}{aaf683fd89843cf977659d77e6ba2f11}
+      \strng{authornamehash}{aaf683fd89843cf977659d77e6ba2f11}
+      \strng{authorfullhash}{64aa4ae72f55d631c5d5b10f5cf713eb}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Fisken og havet}
+      \field{title}{{NorKyst-800 report no. 1: User manual and technical descriptions}}
+      \field{volume}{2}
+      \field{year}{2011}
+    \endentry
     \entry{atomic2015fukushima}{book}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=5b8d7fa539d867e69e4042cdf26cb7f2}{%
@@ -88,12 +147,6 @@
       \verb 10.1063/1.3690163
       \endverb
       \verb{eprint}
-      \verb http://dx.doi.org/10.1063/1.3690153
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1063/1.3690153
-      \endverb
-      \verb{url}
       \verb http://dx.doi.org/10.1063/1.3690153
       \endverb
     \endentry
@@ -206,6 +259,34 @@
       \verb{url}
       \verb https://www.reuters.com/article/us-indonesia-volcano/more-bali-flights-canceled-on-forecast-of-volcanic-ash-idUSKBN1DW08G
       \endverb
+    \endentry
+    \entry{loken2017}{thesis}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=7e09d233c82661976791dae92a442420}{%
+           family={L{ø}ken},
+           familyi={L\bibinitperiod},
+           given={Arne\bibnamedelimb Magnus\bibnamedelima Tveita},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Institutt for fysikk, NTNU}%
+      }
+      \strng{namehash}{7e09d233c82661976791dae92a442420}
+      \strng{fullhash}{7e09d233c82661976791dae92a442420}
+      \strng{bibnamehash}{7e09d233c82661976791dae92a442420}
+      \strng{authorbibnamehash}{7e09d233c82661976791dae92a442420}
+      \strng{authornamehash}{7e09d233c82661976791dae92a442420}
+      \strng{authorfullhash}{7e09d233c82661976791dae92a442420}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Sensitivity to Numerical Integration Scheme in Calculation of Lagrangian Coherent Structures}}
+      \field{type}{Rapport fra fordypningsprosjekt}
+      \field{year}{2017}
     \endentry
     \entry{obayashi2018stricken}{article}{}
       \name{author}{2}{}{%
