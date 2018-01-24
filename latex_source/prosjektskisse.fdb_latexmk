@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber prosjektskisse"] 1516810710 "prosjektskisse.bcf" "prosjektskisse.bbl" "prosjektskisse" 1516811732
+["biber prosjektskisse"] 1516810710 "prosjektskisse.bcf" "prosjektskisse.bbl" "prosjektskisse" 1516811820
   "bibliography/references.bib" 1516778972 17990 67829d7aa354d899d4c420ea093b7170 ""
-  "prosjektskisse.bcf" 1516811732 88799 97c6e816c87eda7a7ff348ce4ba4e963 ""
+  "prosjektskisse.bcf" 1516811820 88799 97c6e816c87eda7a7ff348ce4ba4e963 ""
   (generated)
   "prosjektskisse.blg"
   "prosjektskisse.bbl"
-["pdflatex"] 1516811730 "source.tex" "prosjektskisse.pdf" "prosjektskisse" 1516811732
+["pdflatex"] 1516811817 "source.tex" "prosjektskisse.pdf" "prosjektskisse" 1516811820
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc" 1490133665 2933 9ad527ce78d7c5fa0a642dead095f172 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc" 1490133665 2934 a4a9158faed2e9e89c771b4e3b7fc12f ""
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/libertine/lbtn_ncsllp.enc" 1490133665 3288 25b5d43be7be8cba51d85b642598b3b0 ""
@@ -326,11 +326,11 @@
   "_setup_files/functions.tex" 1512407564 8903 ef52671f2f03f17b6f3e0afd90396053 ""
   "_setup_files/packages.tex" 1516661643 5139 df64d84893d75c98492494f1710d91da ""
   "backmatter/backmatter.tex" 1512122980 360 aee66d502670ffaab457ef0d113b5c25 ""
-  "mainmatter/introduction/introduction.tex" 1516811730 7980 1f1ffe8dade53110df0bc134a82a2c84 ""
+  "mainmatter/introduction/introduction.tex" 1516811817 7982 ca8602dfea36bd4cd04988b761aec220 ""
   "mainmatter/mainmatter.tex" 1516649105 113 0aca5a7c3fc1d69980ae94d2dd7ccaaf ""
-  "prosjektskisse.aux" 1516811732 7196 08bcf8c465a75eecccebb531feed1ae0 ""
+  "prosjektskisse.aux" 1516811820 7196 08bcf8c465a75eecccebb531feed1ae0 ""
   "prosjektskisse.bbl" 1516810711 12193 456aa937a44c77de069f38ef07b8d5b2 "biber prosjektskisse"
-  "prosjektskisse.run.xml" 1516811732 2423 ea048a8bfc6950c14b0405f4cbfac66d ""
+  "prosjektskisse.run.xml" 1516811820 2423 ea048a8bfc6950c14b0405f4cbfac66d ""
   "source.tex" 1516661528 926 cde95c78617931c9c605b1c15b5e8b3e ""
   (generated)
   "prosjektskisse.pdf"
